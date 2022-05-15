@@ -1,0 +1,38 @@
+%button {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    word-wrap: unset;
+
+    @media (max-width: 500px) {
+        padding: 5px 10px;
+    }
+}
+
+.primary {
+    @extend %button;
+    background-color: #4B51EF;
+
+    &:hover {
+        background-color: #5168fd;
+    }
+}
+
+.success {
+    @extend %button;
+    background-color: #52CF4F;
+
+    &:hover {
+        background-color: #4a7a12;
+    }
+
+}
+
+.disabled {
+    @extend %button;
+    background-color: #737373;
+}

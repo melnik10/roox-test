@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.appWrapper {
+    display: flex;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    flex: 0 0 150px;
+    background-color: #BDBDBD;
+    padding: 40px 5px 5px 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+    padding: 20px 5px;
+}
+
+
+
+.user {
+    padding: 0px 40px;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.link {
+    color: #4B51EF;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}

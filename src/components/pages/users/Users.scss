@@ -1,0 +1,32 @@
+.users {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  &__footer {
+    width: 100%;
+    text-align: right;
+  }
+
+  &__item {
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    &_name {
+      margin-bottom: 5px;
+    }
+    &_city {
+      margin-bottom: 5px;
+    }
+    &_company {
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }
+}
